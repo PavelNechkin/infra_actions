@@ -57,7 +57,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: 21112011vpn/sprint_16:v1
+          tags: 21112011vpn/api_yamdb
 
   deploy:
     runs-on: ubuntu-latest
