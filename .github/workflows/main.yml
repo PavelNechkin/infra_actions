@@ -57,7 +57,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: 21112011vpn/infra_actions
+          tags: pavelnechkin/infra_actions:latest 
 
   deploy:
     runs-on: ubuntu-latest
